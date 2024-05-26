@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: grid;
+}
+
+/* Define your theme colors, fonts, etc. */
+:root {
+  --main-color: Black; /* Main color is Black */
+  --secondary-color: Darkgreen; /* Secondary color is Dark green */
+  --background-color: white; /* Background color is white */
+  --font-family: Arial, sans-serif;
+  --border-radius: 5px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* Style your headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--main-color);
+  font-family: var(--font-family);
+}
+
+/* Style your paragraphs */
+p {
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+}
+
+/* Style your spans */
+span {
+  color: var(--main-color);
+  font-family: var(--font-family);
+}
+
+/* Style your body or container to have a white background */
+body {
+  background-color: var(--background-color);
+}
+
+/* Style your nav */
+nav {
+  background-color: var(--main-color);
+  color: var(--background-color);
+  padding: 10px;
+}
+
+/* Style your unordered lists */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style your list items */
+nav ul li {
+  color: var(--background-color);
+}
+
+/* Style your images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
